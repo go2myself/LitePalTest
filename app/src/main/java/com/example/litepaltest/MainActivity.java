@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Book book = new Book();
-                book.setPrice(14.95);
+                book.setPrice(14.15);
                 book.setPress("Anchor");
                 book.updateAll("name = ? and author = ?", "The Lost Symbol", "Dan Brown");
             }
